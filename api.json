@@ -1,5 +1,5 @@
 ﻿{
-    "spider": "./spider.jar",
+    "spider": "https://mirror.451460.xyz/raw.githubusercontent.com/Supprise0901/api/main/spider.jar",
     "sites": [
         {
             "key": "豆瓣",
