@@ -1,6 +1,6 @@
 ﻿{
-    "spider": "https://gh-proxy.com/raw.githubusercontent.com/Supprise0901/api/refs/heads/main/spider.jar",
-    "wallpaper": "http://127.0.0.1:9978/file/TVBox/wallpaper.jpg",
+    "spider": "https://gh-proxy.com/raw.githubusercontent.com/Supprise0901/api/main/spider.jar",
+    "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
         {
@@ -310,7 +310,7 @@
         },
         {
             "key": "玩偶弹幕",
-            "name": "玩偶哥哥｜4K弹幕",
+            "name": "玩偶｜4K弹幕",
             "type": 3,
             "api": "csp_Wogg",
             "searchable": 1,
@@ -321,22 +321,6 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "wogg": true,
-                "danmu": true
-            }
-        },
-        {
-            "key": "玩偶备用弹幕",
-            "name": "玩偶｜4K弹幕",
-            "type": 3,
-            "api": "csp_Wogg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://wogg.xxooo.cf",
                 "danmu": true
             }
         },
@@ -714,6 +698,14 @@
             "ext": "saHR0cDovL21pdG8ubWlub3R2LmNuL3xhYXNzZGR3d3h4bGxzeDF4fGJic3NxZGJic3NsbDI1c3g="
         },
         {
+            "key": "人人",
+            "name": "人人｜APP",
+            "type": 3,
+            "api": "csp_Xdai",
+            "playerType": 1,
+            "ext": "caHR0cHM6Ly9qaWVrb3UtMTMxNDA1NDY5OS5jb3MuYXAtY2hvbmdxaW5nLm15cWNsb3VkLmNvbS9qaWVrb3UudHh0fEY1MUY1RDUyRDIzQ0JGMjd8RjUxRjVENTJEMjNDQkYyN3wxOTE="
+        },
+        {
             "key": "雨滴",
             "name": "雨滴｜App",
             "type": 3,
@@ -760,6 +752,17 @@
             "api": "csp_Hudie",
             "playerType": 2,
             "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
+        },
+        {
+            "key": "快看",
+            "name": "快看｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "http://kkwk123.top/api.php/app/"
         },
         {
             "key": "天天影视",
@@ -1435,20 +1438,6 @@
             "ext": "./JS/樱花动漫.js"
         },
         {
-            "key": "夸克影搜弹幕",
-            "name": "影搜｜弹幕",
-            "type": 3,
-            "api": "csp_Yingso",
-            "searchable": 1,
-            "filterable": 0,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
-            }
-        },
-        {
             "key": "搜索弹幕",
             "name": "搜索｜弹幕",
             "type": 3,
@@ -1486,20 +1475,6 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
-            }
-        },
-        {
-            "key": "米搜弹幕",
-            "name": "米搜｜弹幕",
-            "type": 3,
-            "api": "csp_Qkpanso",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "https://www.misou.fun",
                 "danmu": true
             }
         },
@@ -1767,7 +1742,7 @@
             "api": "csp_Market",
             "searchable": 0,
             "changeable": 0,
-            "ext": "https://ghproxy.net/https://raw.githubusercontent.com/PizazzGY/Share/main/market.json"
+            "indexs": 0
         },
         {
             "key": "push_agent",
@@ -2196,16 +2171,8 @@
             "url": "https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "logo": "https://live.fanmingming.cn/tv/{name}.png",
-            "playerType": 1,
+            "playerType": 2,
             "timeout": 10
-        },
-        {
-            "name": "直播",
-            "type": 3,
-            "api": "csp_Feiyang",
-            "url": "tv.m3u",
-            "timeout": 10,
-            "ua": "okhttp/3.15"
         },
         {
             "name": "电视Live",
