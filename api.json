@@ -278,14 +278,14 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://github.moeyy.xyz/https://github.com/Supprise0901/api/blob/main/fan.jar",
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "wogg": true,
                 "danmu": true
-            }
+            },
+            "jar": "https://github.moeyy.xyz/https://github.com/Supprise0901/api/blob/main/fan.jar"
         },
         {
             "key": "夸克闪电弹幕",
