@@ -2,7 +2,6 @@
     "spider": "https://gh-proxy.com/https://github.com/Supprise0901/api/blob/main/api.jar;md5;b63a0eb8852bb7ab06500c424ccc3dae",
     "wallpaper": "https://yydsys.top/bg.php",
     "logo": "https://img.cdn1.vip/i/69e0b8deadf7f_1776335070.gif",
-    "warningText": "接口完全免费，切勿贩卖购买，仅供测试，请于测试完毕后24小时删除",
     "lives": [
         {
             "name": "migu(优)",
@@ -71,92 +70,6 @@
             "changeable": 1,
             "indexs": 1,
             "ext": "https://yydsys.top/duo/json/douban.json"
-        },
-        {
-            "key": "\nconfig",
-            "name": "🐲歌配置｜中心",
-            "type": 3,
-            "jar": "./jar/01_d4ef68f275be721a92f218de955a8328.jar;md5;c96b69de5ace48bcf0e522147364e048",
-            "api": "csp_Config",
-            "searchable": 0
-        },
-        {
-            "key": "配置123中心",
-            "name": "❤夸配置｜中心",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "jar": "./jar/02_6f1e49c30e53b2af23c1598713e5e808.jar;md5;367b30616fb382b237c4b9105e41d5f2",
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "csp_wogg1",
-            "name": "🐲玩歌｜4K弹幕",
-            "type": 3,
-            "changeable": "0",
-            "api": "csp_Duopan",
-            "filterable": 1,
-            "jar": "./jar/01_d4ef68f275be721a92f218de955a8328.jar;md5;c96b69de5ace48bcf0e522147364e048",
-            "ext": {
-                "site_urls": [
-                    "https://woog.nxog.fun",
-                    "https://woog.nxog.eu.org",
-                    "https://woog.430520.xyz",
-                    "https://woog.歌.de5.net",
-                    "https://ogkk.nxog.fun"
-                ],
-                "url_key": "wogg1",
-                "threadinfo": {
-                    "chunksize": 422,
-                    "threads": 16
-                }
-            }
-        },
-        {
-            "key": "夸快夸快",
-            "name": "❤夸快｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "jar": "./jar/02_6f1e49c30e53b2af23c1598713e5e808.jar;md5;367b30616fb382b237c4b9105e41d5f2",
-            "ext": {
-                "site": [
-                    "https://woog.430520.xyz",
-                    "https://ogkk.nxog.fun",
-                    "https://woog.nxog.fun",
-                    "https://ogkk.nxog.de5.net"
-                ]
-            }
-        },
-        {
-            "key": "csp_woog2",
-            "name": "🐲装歌｜4K弹幕",
-            "type": 3,
-            "changeable": "0",
-            "api": "csp_Duopan",
-            "filterable": 1,
-            "jar": "./jar/01_d4ef68f275be721a92f218de955a8328.jar;md5;c96b69de5ace48bcf0e522147364e048",
-            "ext": {
-                "site_urls": [
-                    "https://ogkk.nxog.fun",
-                    "https://ogkk.nxog.eu.org",
-                    "https://ogkk.430520.xyz",
-                    "https://ogkk.歌.de5.net",
-                    "https://woog.430520.xyz"
-                ],
-                "url_key": "woog2",
-                "threadinfo": {
-                    "chunksize": 467,
-                    "threads": 16
-                }
-            }
         },
         {
             "key": "网盘配置",
