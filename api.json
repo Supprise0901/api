@@ -83,6 +83,13 @@
                 "ratio": 1.597
             }
         },
+		{
+			"key": "一曲肝肠断",
+			"name": "🇨🇳分享戏曲",
+			"type": 3,
+			"api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/api/refs/heads/main/JS/drpy2.min.js",
+			"ext": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/JS/分享xq.js"
+		},
         {
             "key": "leo弹幕",
             "name": "⚙️┃LEO┃弹幕",
